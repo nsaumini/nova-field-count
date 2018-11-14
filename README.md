@@ -1,5 +1,5 @@
 # Nova Field Count
-A Laravel Nova field for relationship count.
+A Laravel Nova field for relationship count. Displays only on index view.
 
 ## Installation
 
