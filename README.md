@@ -38,3 +38,8 @@ class Survey extends Resource
     }
 }
 ```
+
+## Screenshot
+
+![Screenshot 1](.docs/Screenshot1.png)
+
