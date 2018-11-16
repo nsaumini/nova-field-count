@@ -1,10 +1,10 @@
 <?php
 
-namespace Saumini\Count;
+namespace Saumini\RelationshipCount;
 
 use Laravel\Nova\Fields\Field;
 
-class Count extends Field
+class RelationshipCount extends Field
 {
     /**
      * The field's component.
