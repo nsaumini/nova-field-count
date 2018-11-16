@@ -25,7 +25,7 @@ class Post extends Model
 Use `Count` field on relationship.
 
 ```php
-use Saumini\RelationshipCount\RelationshipCount;
+use Saumini\Count\RelationshipCount;
 
 class Survey extends Resource
 {

@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Saumini\\RelationshipCount\\": "src/"
+            "Saumini\\Count\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Saumini\\RelationshipCount\\FieldServiceProvider"
+                "Saumini\\Count\\FieldServiceProvider"
             ]
         }
     },

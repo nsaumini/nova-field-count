@@ -1,6 +1,6 @@
 <?php
 
-namespace Saumini\RelationshipCount;
+namespace Saumini\Count;
 
 use Laravel\Nova\Fields\Field;
 
