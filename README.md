@@ -25,7 +25,7 @@ class Post extends Model
 Use `Count` field on relationship.
 
 ```php
-use Saumini\Count\Count;
+use Saumini\RelationshipCount\RelationshipCount;
 
 class Survey extends Resource
 {
@@ -33,7 +33,7 @@ class Survey extends Resource
     public function fields(Request $request)
     {
         return [
-            Count::make('Comments Count', 'comments'),
+            RelationshipCount::make('Comments Count', 'comments'),
         ];
     }
 }
