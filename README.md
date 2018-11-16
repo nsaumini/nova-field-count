@@ -41,5 +41,5 @@ class Survey extends Resource
 
 ## Screenshot
 
-![Screenshot 1](.docs/Screenshot1.png)
+![Screenshot 1](https://raw.githubusercontent.com/nsaumini/nova-field-count/master/.docs/Screenshot1.png)
 
