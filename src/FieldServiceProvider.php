@@ -1,6 +1,6 @@
 <?php
 
-namespace Saumini\Count;
+namespace Saumini\RelationshipCount;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
