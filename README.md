@@ -39,7 +39,34 @@ class Survey extends Resource
 }
 ```
 
+#### For sortable field
+
+```php
+use Saumini\Count\RelationshipCount;
+
+class Survey extends Resource
+{
+    ...
+    public function fields(Request $request)
+    {
+        return [
+            RelationshipCount::make('Comments Count', 'comments')->sortable(),
+        ];
+    }
+    
+    // Overwrite the indexQuery to include relationship count
+    public static function indexQuery(NovaRequest $request, $query)
+    {
+        // Give relationship name as alias else Laravel will name it as comments_count
+        return $query->withCount('comments as comments');
+    }
+}
+```
+
 ## Screenshot
 
 ![Screenshot 1](https://raw.githubusercontent.com/nsaumini/nova-field-count/master/.docs/Screenshot1.png)
+
+
+
 
